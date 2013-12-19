@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap base Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/newsTicker.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<h1>News Ticker Demo</h1>
+<script>
+$(function () {
+	$('#newsList').newsTicker({debugMode:1});
+});
+</script>
+
+<style>
+.newsCss{
+	height:50px;
+	border:1px solid #c3501d;
+	padding:15px;
+}
+</style>
+	<div id="newsData" class="row newsCss"></div>
+	<ul id="newsList">
+			<li class="news-item" >1 jQuery News Ticker, Lorem ipsum dolor sit amet !</li>
+			<li class="news-item" >2 jQuery News Ticker, nunc nobis videntur parum clari, fiant sollemnes in futurum !</li>
+			<li class="news-item" >3 jQuery News Ticker, claritatem insitam; est usus legentis in iis qui facit eorum  !</li>
+	</ul>
+	<div class="row" style="margin-top:10px"><input type="button" id="prevDiv" value="Prev" class="btn btn-primary"> <input type="button" id="nextDiv" value="Next" class="btn btn-primary"> <input class="btn btn-primary" type="button" id="play-pause" value="Play/Pause"></div>
+</div>
+	
+</body>
+</html>
