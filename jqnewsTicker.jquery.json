@@ -6,10 +6,10 @@
     "jquery",
     "news",
     "plugins",
-	"news Ticker",
+	"newsTicker",
 	"newsticker"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Jayesh Magare",
     "url": "https://github.com/jayeshmagare"
