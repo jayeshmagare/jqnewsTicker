@@ -30,6 +30,7 @@
   "homepage": "http://technosouls.in/git-projects/jqnewsTicker/index.html",
   "docs": "https://github.com/jayeshmagare/jqnewsTicker/blob/master/README.md",
   "download": "https://github.com/jayeshmagare/jqnewsTicker/archive/master.zip",
+  "demo": "http://technosouls.in/git-projects/jqnewsTicker/index.html",
   "dependencies": {
     "jquery": ">=1.4"
   }
