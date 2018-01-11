@@ -1,7 +1,7 @@
 Jquery News Ticker
 ====================
 ## Demo Link
-	http://techansh.com/git-projects/jqnewsTicker/index.html
+	http://techansh.com/git-projects/jqnewsTicker/demo.html
 
 ## Usage
 
