@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap base Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/newsTicker.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<h1>News Ticker Demo</h1>
+<script>
+$(function () {
+	$('#newsList').newsTicker({
+		interval: "4000",			// Timeout interval between two news 4000 = 4 secs
+		newsData: "#newsData",		// Div where news will appear 
+		prevBtnDiv: "#prevDiv",		// Prev button/div id 
+		nextBtnDiv: "#nextDiv",		// Next button/div id 
+		playPauseID: "#play-pause",	// Play/Pause toggle button/div id
+		debugMode:0					// Pass 1 if you want to see console messages
+    });
+    $('#newsList1').newsTicker({
+		interval: "4000",			// Timeout interval between two news 4000 = 4 secs
+		newsData: "#newsData1",		// Div where news will appear 
+		prevBtnDiv: "#prevDiv1",		// Prev button/div id 
+		nextBtnDiv: "#nextDiv1",		// Next button/div id 
+		playPauseID: "#play-pause1",	// Play/Pause toggle button/div id
+		debugMode:0					// Pass 1 if you want to see console messages
+    });
+});
+</script>
+
+<style>
+.newsCss{
+	height:50px;
+	border:1px solid #c3501d;
+	padding:15px;
+}
+</style>
+	<div id="newsData" class="row newsCss"></div>
+	<ul id="newsList">
+			<li class="news-item" >1 jQuery News Ticker, Lorem ipsum dolor sit amet !</li>
+			<li class="news-item" >2 jQuery News Ticker, nunc nobis videntur parum clari, fiant sollemnes in futurum !</li>
+			<li class="news-item" >3 jQuery News Ticker, claritatem insitam; est usus legentis in iis qui facit eorum  !</li>
+	</ul>
+	<div class="row" style="margin-top:10px"><input type="button" id="prevDiv" value="Prev" class="btn btn-primary"> <input type="button" id="nextDiv" value="Next" class="btn btn-primary"> <input class="btn btn-primary" type="button" id="play-pause" value="Play/Pause"></div>
+    <br><br><BR>
+    
+    
+    <div id="newsData1" class="row newsCss"></div>
+	<ul id="newsList1">
+			<li class="news-item" >1.1 jQuery News Ticker, Lorem ipsum dolor sit amet !</li>
+			<li class="news-item" >2.1 jQuery News Ticker, nunc nobis videntur parum clari, fiant sollemnes in futurum !</li>
+			<li class="news-item" >3.1 jQuery News Ticker, claritatem insitam; est usus legentis in iis qui facit eorum  !</li>
+	</ul>
+	<div class="row" style="margin-top:10px"><input type="button" id="prevDiv1" value="Prev" class="btn btn-primary"> <input type="button" id="nextDiv1" value="Next" class="btn btn-primary"> <input class="btn btn-primary" type="button" id="play-pause1" value="Play/Pause"></div>
+    
+</div>
+	
+</body>
+</html>

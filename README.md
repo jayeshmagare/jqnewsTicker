@@ -1,7 +1,8 @@
 Jquery News Ticker
 ====================
 ## Demo Link
-	http://techansh.com/git-projects/jqnewsTicker/demo.html
+	http://techansh.com/git-projects/jqnewsTicker/demo.html : Single News Ticket Demo
+    http://techansh.com/git-projects/jqnewsTicker/multidemo.html : Single News Ticket Demo
 
 ## Usage
 
@@ -52,4 +53,4 @@ Jquery News Ticker
 
 	MIT License http://opensource.org/licenses/MIT	
 
-Copyright 2013 Jayesh Magare
+Copyright 2018 Jayesh Magare
